@@ -1,6 +1,6 @@
 var http = require('http'), url = require('url');
 
-
+http.createServer(function (req, res) {
 var pathName = url.parse(req.url).pathname;
 var arrayN = pathName.split('/');
 
@@ -52,3 +52,4 @@ if (pathName === '/') {
   });
   res.end('Page not found\n')
 } 
+}).listen(8080);
