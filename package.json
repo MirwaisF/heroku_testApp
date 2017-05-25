@@ -1,9 +1,15 @@
 {
-   "name":"My Awesome Heroku Application",
-   "version":"0.0.1",
-   "scripts": {
+  "name": "my-awesome-heroku-application",
+  "version": "0.0.1",
+  "author": "Mirwais Fazli",
+  "description" : "First Heroku application",
+  "main":"app.js",
+  "private": true,
+
+  "scripts": {
     "start": "node app.js"
-    },
-   "dependencies": {
-    }
+  },
+
+  "dependencies" : {
+  }
 }
