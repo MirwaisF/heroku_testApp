@@ -1,15 +1,26 @@
 {
-  "name": "my-awesome-heroku-application",
+  "name": "node-js-getting-started",
   "version": "0.0.1",
-  "author": "Mirwais Fazli",
-  "description" : "First Heroku application",
-  "main":"app.js",
-  "private": true,
-
+  "description": "A sample Node.js app calculator",
+  "engines": {
+    "node": "6.10.2"
+  },
+  "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-
-  "dependencies" : {
-  }
+  "dependencies": {
+    "ejs": "2.5.6",
+    "express": "4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MirwaisF/heroku_testApp"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIR"
 }
